@@ -1,0 +1,88 @@
+
+  input,
+  select {
+    width: 100%;
+    padding: 10px;
+  }
+
+  select {
+    background: rgb(122, 251, 139);
+    border : 1px solid #ccc;
+  }
+  select:hover {
+    box-shadow: 
+      12px 12px 16px 0 rgba(203, 81, 81, 0.594) inset,
+      -8px -8px 12px 0 rgba(22, 232, 232, 0.25) inset;background: rgb(122, 251, 139);  
+  }
+
+  .btn {
+    height: 50px;
+    font-weight: 600;
+    font-size: 25px;
+    border-radius: 10px;
+    box-shadow: 
+      12px 12px 16px 0 rgba(203, 81, 81, 0.594) inset,
+      -8px -8px 12px 0 rgba(22, 232, 232, 0.25) inset;
+  }
+  
+  .btn:hover {
+    background: rgb(102, 240, 151);
+  }
+  
+  .output {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  
+
+
+  
+  .element {
+    align-items: center;
+    background: linear-gradient(-45deg, rgba(0,0,0,0.22), rgba(255,255,255,0.25));
+    box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+     -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    height: 700px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .main{
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+  }
+
+  .input-amount,
+  .input-from,
+  .input-to {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+    .amount{
+    margin-right: 10px;
+    font-weight: 800;
+    font-size: 30px;
+  }
+  .input-from {
+    margin-right:80px;
+  }
+
+  .input-to {
+    margin-right:40px;
+  }
+
+  .input-design{
+     border-radius: 10px;
+     font-weight: 100;
+     font-size: 20px;
+  }

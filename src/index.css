@@ -4,7 +4,7 @@ body {
   align-items: center;
   grid-gap: 2rem;
   grid-template-columns: 200px;
-  height: 100vh;
+  height: 90vh;
   justify-content: center;
   padding: 1rem;
 }
